@@ -6,12 +6,23 @@ package com.s6.tk_empty;
 
 public class Person implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Person() {
-    }
+	private java.lang.Boolean a;
 
+	public Person() {
+	}
 
+	public java.lang.Boolean getA() {
+		return this.a;
+	}
 
+	public void setA(java.lang.Boolean a) {
+		this.a = a;
+	}
+
+	public Person(java.lang.Boolean a) {
+		this.a = a;
+	}
 
 }
